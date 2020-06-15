@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dummyRestAPI" tests="1" time="0.500">
+  <testsuite name="singleEmpl" id="db334ffb-e449-46e5-a848-04d9a190bb5f" timestamp="2020-06-14T18:21:55.130Z" tests="1" failures="0" errors="0" time="0.500">
+    <testcase name="Body matches string" time="0.500" classname="DummyRestApi"/>
+  </testsuite>
+</testsuites>

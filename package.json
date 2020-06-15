@@ -1,0 +1,26 @@
+{
+	"name": "pptr-testing",
+	"version": "1.0.0",
+	"description": "puppeteer automation using mocha chai",
+	"main": "index.js",
+	"scripts": {
+		"test:example": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example.test.js",
+		"test:device": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/device.test.js"
+	},
+	"keywords": [
+		"automation",
+		"puppeteer",
+		"testing",
+		"mocha",
+		"chai"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.0.1",
+		"newman": "^5.1.0",
+		"prettier": "^2.0.5",
+		"puppeteer": "^3.3.0"
+	}
+}
